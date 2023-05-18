@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'LG';
+  font-weight: 400;
+  src: local('LG'), url('./assets/fonts/LabilGrotesk-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'LG';
+  font-weight: 500;
+  src: local('LG'), url('./assets/fonts/LabilGrotesk-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'LG';
+  font-weight: 700;
+  src: local('LG'), url('./assets/fonts/LabilGrotesk-Bold.woff2') format('woff2');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'LG';
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #000;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+}
